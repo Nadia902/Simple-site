@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+  box-sizing: border-box;
+  max-width: 1110px;
+  padding-left: 55px;
+  padding-right: 55px;
+  min-width: 414px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+  background: #007765;
+  width: 100%;
+  position: fixed;
+}
+
+.piedpiper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.piedpiper img{
+  width: 184px;
+  height: 45px;
+  left: 501px;
+  top: 20px;  
+}
+
+.piedpiper ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.piedpiper li{
+  margin-left: 8px;
+}
+
+/* piperNet */
+
+.piperNet{
+  background-image: url('back.png');
+  background-size: cover;
+  background-position: center center;
+  padding: 244px 0 160px;
+}
+
+.piperNet p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+margin: 0;
+
+}
+
+/*theProblem*/
+
+.wrap2 {
+  box-sizing: border-box;
+  max-width: 1110px;
+  min-width: 414px;
+  margin: 0 auto;
+}
+
+.theProblem {
+  padding: 0;
+  background-color: #EEEEEE;
+  margin: 0;
+}
+
+.theProblem h1{
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+color: #007765;
+padding-top: 48px;
+margin: 0;
+}
+
+.theProblem p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+padding-bottom: 92px;
+margin: 0;
+padding-top: 16px;
+}
+
+
+/*together*/
+
+.together {
+  background: #E5E5E5;
+  margin: 0;
+}
+
+.wrap1 {
+  box-sizing: border-box;
+  max-width: 1110px;
+  padding-left: 100px;
+  padding-right: 100px;
+  min-width: 414px;
+  margin: 0 auto;
+}
+  
+.hero {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding: 128px 0;
+  background-image: url('image.png');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+}
+  
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+/* introducing*/
+
+.introducing h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 64px 0 0;
+
+}
+
+.introducing img{
+  float: left;
+  padding-right: 48px;
+}
+
+.introducing p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+}
+
+.p1{
+  margin: 16px 0 40px;
+}
+.p2{
+  padding-bottom: 92px;
+  margin: 0;
+}
+
+/* team */
+
+.team{
+  background-color: #EEEEEE;
+}
+
+.team h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 58px;
+  padding-bottom: 32px;
+  margin: 0;
+}
+
+.text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #007765;
+text-align: center;
+}
+
+.text2{
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+
+.content1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 54px;
+}
+
+.img{
+  width: 350px;
+  height: 283px;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+.footer {
+  background: #333333;
+  margin: 0;
+}
+
+.footer p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+padding: 50px 265px 62px;
+margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
